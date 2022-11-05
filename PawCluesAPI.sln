@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PawCluesAPI", "PawCluesAPI\PawCluesAPI.csproj", "{4E6EB697-4B64-48AB-A403-15FCD9D1961B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{A72E6536-41E4-400E-BD0D-7F11A4F32D28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{29AA7FA3-85BD-4F83-8B65-473377660DE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E6EB697-4B64-48AB-A403-15FCD9D1961B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E6EB697-4B64-48AB-A403-15FCD9D1961B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E6EB697-4B64-48AB-A403-15FCD9D1961B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E6EB697-4B64-48AB-A403-15FCD9D1961B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72E6536-41E4-400E-BD0D-7F11A4F32D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72E6536-41E4-400E-BD0D-7F11A4F32D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72E6536-41E4-400E-BD0D-7F11A4F32D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72E6536-41E4-400E-BD0D-7F11A4F32D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29AA7FA3-85BD-4F83-8B65-473377660DE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29AA7FA3-85BD-4F83-8B65-473377660DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29AA7FA3-85BD-4F83-8B65-473377660DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29AA7FA3-85BD-4F83-8B65-473377660DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6FAFFB0-F765-4B9C-B2F9-1DF24629D169}
+	EndGlobalSection
+EndGlobal
