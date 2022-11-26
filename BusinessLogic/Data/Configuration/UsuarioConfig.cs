@@ -1,4 +1,6 @@
 ﻿using Core.Entities;
+using Core.Entities;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic.Data.Configuration
 {
-    public class UsuarioConfig
+    public class UsuarioConfig : IEntityTypeConfiguration<Usuario>
     {
         public void Configure(EntityTypeBuilder<Usuario> builder)
         {
@@ -17,6 +19,7 @@ namespace BusinessLogic.Data.Configuration
             builder.HasOne(r => r.Distrito).WithMany().HasForeignKey(m => m.DistritoId);
             builder.Property(u => u.NombreCompleto).IsRequired().HasMaxLength(100);
             builder.Property(u => u.NumeroContacto).IsRequired().HasMaxLength(10);
+
         }
     }
 }

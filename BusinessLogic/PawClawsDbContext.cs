@@ -18,7 +18,9 @@ namespace BusinessLogic.Data
         public DbSet<Mascota> Mascota { get; set; }
 
         public DbSet<Raza> Raza { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
 
+        public DbSet<Distrito> Distrito { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
 
             base.OnModelCreating(modelBuilder);

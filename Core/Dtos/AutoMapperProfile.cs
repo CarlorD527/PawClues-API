@@ -16,6 +16,9 @@ namespace Core.Dtos
 
             CreateMap<Mascota, MascotaDto>();
             CreateMap<MascotaDto, Mascota>();
+            CreateMap<Usuario, UsuarioDto>();
+            CreateMap<UsuarioDto, Usuario>();
+         
 
         }
     }

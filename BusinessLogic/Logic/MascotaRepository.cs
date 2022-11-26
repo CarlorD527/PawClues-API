@@ -20,14 +20,16 @@ namespace BusinessLogic.Logic
 
             _context = context;
         }
+       
         public async Task<Mascota> getMascotaByIdAsync(int id)
         {
+            
             return await _context.Mascota.Include(m => m.Raza).FirstOrDefaultAsync(m=>m.RazaId== id);
         }
 
         public async Task<IReadOnlyList<Mascota>> GetMascotasAsync()
         {
-           return await _context.Mascota.Include(m =>m.Raza).ToListAsync();
+           return await _context.Mascota.Include(m =>m.Raza).Include(u=>u.Usuario).ToListAsync();
         }
 
         public async Task PostMascotaAsync(Mascota mascota)

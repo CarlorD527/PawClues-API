@@ -78,3 +78,9 @@ C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\System.Web.W
 C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\System.Web.WebPages.Razor.dll
 C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\System.Web.WebPages.dll
 C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\Firebase.Auth.dll
+C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\Firebase.Storage.dll
+C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+C:\Users\Rolf\source\repos\PawCluesAPI\PawCluesAPI\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.Azure.dll

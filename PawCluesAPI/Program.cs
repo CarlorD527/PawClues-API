@@ -1,6 +1,7 @@
 using BusinessLogic.Data;
 using BusinessLogic.Logic;
 using Core.Dtos;
+using Core.Entities;
 using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using PawCluesAPI.Dtos;
@@ -19,6 +20,13 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 builder.Services.AddTransient<IMascotaRepository, MascotaRepository>();
 builder.Services.AddTransient<IRazaRepository, RazaRepository>();
+builder.Services.AddTransient<IUsuarioRepository,UsuarioRepository>();
+builder.Services.AddTransient<IDistritoRepository, DistritoRepository>();
+builder.Services.AddCors(p => p.AddPolicy("corsapp", builder =>
+{
+    builder.WithOrigins("*").AllowAnyMethod().AllowAnyHeader();
+}));
+
 var app = builder.Build();
 
 //Ejecucion de migraciones
@@ -45,9 +53,10 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
+    app.UseCors("corsapp");
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
